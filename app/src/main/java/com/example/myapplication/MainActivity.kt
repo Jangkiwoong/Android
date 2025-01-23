@@ -1,6 +1,8 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             // 처리된 insets 반환
             insets
+
         }
+            val image1 = findViewById<ImageView>(R.id.image_1)
+            image1.setOnClickListener {
+                Toast.makeText(this, "1번 클릭 완료", Toast.LENGTH_SHORT).show()
+            }
     }
 }
