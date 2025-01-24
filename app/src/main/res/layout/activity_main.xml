@@ -19,14 +19,17 @@
         android:layout_width="100dp"
         android:layout_height="100dp"/>
     <ImageView
+        android:id="@+id/image_2"
         android:src="@drawable/dummy2"
         android:layout_width="100dp"
         android:layout_height="100dp"/>
     <ImageView
+        android:id="@+id/image_3"
         android:src="@drawable/dummy3"
         android:layout_width="100dp"
         android:layout_height="100dp"/>
     <ImageView
+        android:id="@+id/image_4"
         android:src="@drawable/dummy4"
         android:layout_width="100dp"
         android:layout_height="100dp"/>
@@ -35,39 +38,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:src="@drawable/dummy1"
+            android:id="@+id/image_5"
+            android:src="@drawable/dummy5"
             android:layout_width="100dp"
             android:layout_height="100dp"/>
         <ImageView
-            android:src="@drawable/dummy2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
-        <ImageView
-            android:src="@drawable/dummy3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
-        <ImageView
-            android:src="@drawable/dummy4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:src="@drawable/dummy1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
-        <ImageView
-            android:src="@drawable/dummy2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
-        <ImageView
-            android:src="@drawable/dummy3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
-        <ImageView
-            android:src="@drawable/dummy4"
+            android:id="@+id/image_6"
+            android:src="@drawable/dummy6"
             android:layout_width="100dp"
             android:layout_height="100dp"/>
     </LinearLayout>
