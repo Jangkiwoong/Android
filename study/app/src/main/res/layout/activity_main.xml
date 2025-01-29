@@ -19,9 +19,10 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
-        android:src="@drawable/dummy1"
-        android:layout_width="120dp"
-        android:layout_height="120dp" />
+            android:id="@+id/member1"
+            android:src="@drawable/dummy1"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -29,6 +30,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member2"
             android:src="@drawable/dummy2"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -39,6 +41,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member3"
             android:src="@drawable/dummy3"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -54,6 +57,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member4"
             android:src="@drawable/dummy4"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -64,6 +68,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member5"
             android:src="@drawable/dummy5"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -74,6 +79,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member6"
             android:src="@drawable/dummy6"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -89,6 +95,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member7"
             android:src="@drawable/dummy7"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -99,6 +106,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member8"
             android:src="@drawable/dummy8"
             android:layout_width="120dp"
             android:layout_height="120dp" />
@@ -109,6 +117,7 @@
             app:cardCornerRadius="20dp"
             android:layout_margin="5dp">
         <ImageView
+            android:id="@+id/member9"
             android:src="@drawable/dummy9"
             android:layout_width="120dp"
             android:layout_height="120dp" />
