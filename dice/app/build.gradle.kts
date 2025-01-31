@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.databinding_ex"
+    namespace = "com.example.dice"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.databinding_ex"
+        applicationId = "com.example.dice"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
