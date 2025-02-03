@@ -22,6 +22,7 @@
                 android:layout_height="wrap_content"
                 android:text="인생은 주사위 한방에 가는거 아니겠습니까?"
                 android:textColor="#000000"
+                android:fontFamily="@font/bmjua_otf"
                 android:textSize="30sp"
                 android:gravity="center"
                 android:textStyle="bold"/>
@@ -52,7 +53,8 @@
             android:textColor="@color/white"
             android:layout_height="50dp"
             android:layout_margin="50dp"
-            android:text="인생고고" />
+            android:text="인생고고"
+            android:fontFamily="@font/bmjua_otf"/>
 
 
     </LinearLayout>
