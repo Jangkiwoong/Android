@@ -2,6 +2,7 @@ package com.example.goodwords
 
 import android.os.Bundle
 import android.widget.ListView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -29,8 +30,11 @@ class SentenceActivity : AppCompatActivity() {
         sentenceList.add("검정화면에 대충 흰글씨 쓰면 명언같다.9")
 
         val senteceAdapter = ListViewAdapter(sentenceList)
-        val listview = findViewById<ListView>(R.id.sentenceListView)
 
+        val listview = findViewById<ListView>(R.id.sentenceListView)
         listview.adapter = senteceAdapter
+        listview.setOnItemClickListener {parent, view, position, id ->
+            Toast.makeText( this, sentenceList[position], Toast.LENGTH_SHORT).show()
+        }
     }
 }

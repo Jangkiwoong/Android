@@ -38,7 +38,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SentenceActivity::class.java)
             startActivity(intent)
         }
-
         binding.goodWordTextArea.setText(sentenceList.random())
+        binding.randomBtn.setOnClickListener {
+            binding.goodWordTextArea.setText(sentenceList.random())
+        }
     }
 }
