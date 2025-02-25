@@ -2,6 +2,7 @@ package com.example.goodwords
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -40,7 +41,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.goodWordTextArea.setText(sentenceList.random())
         binding.randomBtn.setOnClickListener {
-            binding.goodWordTextArea.setText(sentenceList.random())
+            var random = sentenceList.random()
+            Toast.makeText( this, random, Toast.LENGTH_SHORT).show()
+            binding.goodWordTextArea.setText(random)
         }
     }
 }
