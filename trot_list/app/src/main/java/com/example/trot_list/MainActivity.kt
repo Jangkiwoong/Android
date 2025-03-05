@@ -20,21 +20,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val items = mutableListOf<String>()
-
-        items.add("a")
-        items.add("b")
-        items.add("c")
-
-        val rv = findViewById<RecyclerView>(R.id.rv)
-        val rvAdapter = RvAdapter(items)
-        rv.adapter = rvAdapter
-        rv.layoutManager = LinearLayoutManager(this)
-
-        rvAdapter.itemClick = object : RvAdapter.ItemClick {
-            override  fun onClick(view: View, position: Int){
-                Toast.makeText(baseContext, items[position], Toast.LENGTH_SHORT).show()
-            }
-        }
     }
 }
