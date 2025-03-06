@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437551595244",
+    "project_id": "logintest-b2016",
+    "storage_bucket": "logintest-b2016.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437551595244:android:19daa885104508b125afc9",
+        "android_client_info": {
+          "package_name": "com.example.fb_login_asd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYATI0VkMh5NN32crsOOeT1VnvpR52aKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
